@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "PasteBoard",
+    "description": "My version of Android's Clipboard for Chrome usage on Desktop.",
+    "action": {
+        "default_popup": "index.html",
+        "icon": "icon.jpeg"
+    }
+
+}

@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+
+}
+
+
+.Paragraphs{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.Paragraphs:hover{
+    text-decoration: underline;
+}
+
+
+#input{
+    border:none;
+    border-bottom: solid 1px;
+    opacity: 0.8;
+    text-align:center;
+}
+
+
+
+
+.mainDiv{
+    margin-top: 5%;
+    padding-top: 5%;
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+
+.btn{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-left: 3%;
+    padding-top: 5px;
+    width: 90px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 4px;
+    border:none;
+}
+
+.btn:hover{
+
+    transform: scale(1.15);
+    transition: 0.275s ease-in;
+    text-decoration: underline;
+}
+
+#save-btn{
+
+    background-color:green;
+    color: white;
+}
+
+#clr-btn{
+    background-color: red;
+    color:white;
+
+}
+
+#del-btn{
+    background-color: #eb0c4f;
+    color:white;
+}
+
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+    padding-top:5px;
+}
